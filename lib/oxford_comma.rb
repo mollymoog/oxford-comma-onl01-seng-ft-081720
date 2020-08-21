@@ -3,8 +3,8 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length > 2 
     last = array.pop
-    array.join(", ")
-    array << last
+    fruits = array.join(", ")
+    fruits << last
   else
     array.join
   end
